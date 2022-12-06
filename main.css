@@ -1,0 +1,353 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background: #f5f5f6;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  
+  .p1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+  
+    color: #000000;
+  }
+  
+  .p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+  
+    color: #959ba4;
+  }
+  
+  .exit {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+  
+    color: #000000;
+    background: #ffffff;
+    border-radius: 4px;
+    width: 5%;
+    padding: 0.8%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  .title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+  
+    color: #000000;
+    margin-left: 27%;
+  }
+  
+  .subcontainer {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: 20.6%;
+  }
+  
+  .text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+  
+    color: #9f9f9f;
+    margin-left: 22%;
+    margin-bottom: 2%;
+  }
+  
+  .convert {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 20%;
+  }
+  
+  .con {
+    width: 25%;
+    list-style: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #c6c6c6;
+    border: 1px solid rgba(229, 229, 229, 1);
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+  }
+  
+  .con1 {
+    width: 25%;
+    list-style: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #c6c6c6;
+    border: 1px solid rgba(229, 229, 229, 1);
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+  }
+  
+  .subcont2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  
+  .inputcont {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+  
+  input {
+    outline: none;
+  }
+  
+  input::-webkit-inner-spin-button{
+    appearance: none;
+  }
+  
+  .input {
+    width: 90%;
+    padding-top: 14%;
+    padding-bottom: 14%;
+    border: none;
+    border-style: none;
+    margin-bottom: 10%;
+    font-size: 30px;
+  }
+  
+  .input:focus {
+    border: none;
+    border-style: none;
+  }
+  
+  .val {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+  
+    color: #c6c6c6;
+    margin-left: 6%;
+    margin-bottom: 4%;
+  }
+  
+  .output {
+    width: 90%;
+    padding-top: 14%;
+    padding-bottom: 14%;
+    border: none;
+    border-style: none;
+    margin-bottom: 10%;
+    font-size: 30px;
+  }
+  
+  .clicked {
+    background-color: #833ae0;
+  }
+  
+  .clicked1 {
+    background-color: #833ae0;
+  }
+  
+  @media screen and (max-width: 1150px) {
+    .p,
+    .p1,
+    .exit {
+      font-size: 9px;
+    }
+    .exit {
+      align-items: center;
+      margin-left: 2%;
+    }
+    .title {
+      font-size: 32px;
+    }
+    .text {
+      font-size: 12px;
+    }
+    .con,
+    .con1 {
+      font-size: 11px;
+    }
+    .input,
+    .output {
+      font-size: 28px;
+    }
+    .val {
+      font-size: 11px;
+    }
+    .title {
+      margin-left: 20%;
+    }
+    .subcontainer {
+      width: 80%;
+      margin-left: 12%;
+    }
+  }
+  
+  @media screen and (max-width: 896px) {
+    .p,
+    .p1,
+    .exit {
+      font-size: 7.8px;
+    }
+    svg {
+      width: 86px;
+      height: 22px;
+    }
+    .exit {
+      align-items: center;
+      margin-left: 10%;
+    }
+    .title {
+      margin-left: 20%;
+    }
+    .subcontainer {
+      width: 80%;
+      margin-left: 12%;
+    }
+  }
+  
+  @media screen and (max-width: 796px) {
+    .p,
+    .p1,
+    .exit {
+      font-size: 7px;
+    }
+  
+    .title {
+      font-size: 30px;
+    }
+    .text {
+      font-size: 10px;
+    }
+    .con,
+    .con1 {
+      font-size: 9px;
+    }
+    .input,
+    .output {
+      font-size: 26px;
+    }
+    .val {
+      font-size: 10px;
+    }
+  
+    svg {
+      width: 84px;
+      height: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .navbar {
+      display: flex;
+    }
+    .p,
+    .p1,
+    .exit {
+      font-size: 7px;
+    }
+    .title {
+      font-size: 30px;
+    }
+    .text {
+      font-size: 13px;
+    }
+    .con {
+      font-size: 12px;
+    }
+    .input,
+    .output {
+      font-size: 30px;
+    }
+    .val {
+      font-size: 13px;
+    }
+    .subcontainer {
+      display: flex;
+      flex-direction: column;
+    }
+    .subcont2 {
+      margin-top: 8%;
+    }
+    .title {
+      margin-left: 28%;
+    }
+  }
